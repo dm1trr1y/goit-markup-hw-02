@@ -112,8 +112,10 @@ a.logo > span {
 
 /* footer */
 footer {
-  color: #ffffff;
   background-color: #2e2f42;
+}
+footer a.logo > span {
+  color: #ffffff;
 }
 footer p {
   color: #f4f4fd;
