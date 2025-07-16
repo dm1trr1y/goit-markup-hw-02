@@ -15,20 +15,28 @@ a {
 ul {
   list-style-type: none;
 }
-h3 {
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-h2.title {
-  line-height: 1.2;
+h2.heading2 {
+  font-weight: 700;
   font-size: 36px;
+  /* line-height: 40px; */
+  line-height: 1.11;
   letter-spacing: 0.02em;
-  color: #2e2f42;
   text-align: center;
-  text-transform: capitalize;
+}
+h3.heading3 {
+  font-weight: 500;
+  font-size: 20px;
+  /* line-height: 24px; */
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+p.text {
+  font-weight: 400;
+  font-size: 16px;
+
+  /* line-height: 24px; */
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 /* logo styles */
@@ -74,7 +82,7 @@ a.logo > span {
 .hero {
   background-color: #2e2f42;
 }
-.hero .main-title {
+.hero .main-heading {
   color: #ffffff;
   font-size: 56px;
   line-height: 1.07;
@@ -103,8 +111,8 @@ a.logo > span {
 .team {
   background-color: #f4f4fd;
 }
-.team h2.title {
-  line-height: 1.11;
+.team h3.heading3 {
+  text-align: center;
 }
 .team .text {
   letter-spacing: 0.02em;
